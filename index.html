@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Weather Forecast</title>
+</head>
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+  </header>
+  <img src="images/banner.jpg" alt="banner" width="100%"><br><br>
+  <main>
+    <form id="weatherForm">
+      <input type="text" id="cityInput" placeholder="Enter city name">
+      <button type="submit">Get Forecast</button>
+    </form>
+    <div id="weatherInfo" class="hidden">
+      <h2>Weather Forecast</h2>
+      <div id="weatherDisplay"></div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2023 European Weather Forecast</p>
+</footer>
+</html>
